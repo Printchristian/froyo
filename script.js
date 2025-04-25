@@ -19,6 +19,7 @@ function countFlavors() {
   for (let flavor in flavorCounts) {
     console.log(flavor + ": " + flavorCounts[flavor]);
   }
+  console.log("Thank You for ording Esteban.");
 }
 
 countFlavors();
